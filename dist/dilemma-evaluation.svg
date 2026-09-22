@@ -1,0 +1,1051 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="548" viewBox="0 0 1280 548" role="img" aria-labelledby="title desc">
+<title id="title">十种语言下六种模型的价值观评测雷达图</title>
+<desc id="desc">根据 baseline_summary.csv 的十二维度均值绘制，图形和文字均为矢量。</desc>
+<rect width="1280" height="548" fill="#fff"/>
+<g font-family="Arial, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#111">
+<path d="M222 15h31" stroke="#858585" stroke-width="2"/>
+<text x="262" y="20" font-size="13" font-weight="600">Qwen-2.5-7B</text>
+<path d="M370 15h31" stroke="#0878ed" stroke-width="2"/>
+<text x="410" y="20" font-size="13" font-weight="600">Qwen-3-8B</text>
+<path d="M506 15h31" stroke="#205b93" stroke-width="2"/>
+<text x="546" y="20" font-size="13" font-weight="600">Qwen-2.5-32B</text>
+<path d="M663 15h31" stroke="#145b9a" stroke-width="2"/>
+<text x="703" y="20" font-size="13" font-weight="600">Qwen-3-32B</text>
+<path d="M808 15h31" stroke="#28a745" stroke-width="2"/>
+<text x="848" y="20" font-size="13" font-weight="600">LLaMA-8B</text>
+<path d="M947 15h31" stroke="#ff6b00" stroke-width="2"/>
+<text x="987" y="20" font-size="13" font-weight="600">Mistral-7B</text>
+<text x="128" y="38" text-anchor="middle" font-size="12">中文</text>
+<text x="128" y="53" text-anchor="middle" font-size="11">富强</text>
+<circle cx="128" cy="163" r="19.20" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="130" y="145.8" font-size="7" fill="#777">20</text>
+<circle cx="128" cy="163" r="38.40" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="130" y="126.6" font-size="7" fill="#777">40</text>
+<circle cx="128" cy="163" r="57.60" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="130" y="107.4" font-size="7" fill="#777">60</text>
+<circle cx="128" cy="163" r="76.80" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="130" y="88.2" font-size="7" fill="#777">80</text>
+<circle cx="128" cy="163" r="96.00" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="130" y="69.0" font-size="7" fill="#777">100</text>
+<path d="M128 163L128.00 67.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="128.00" y="48.00" text-anchor="middle" font-size="10.5">富强</text>
+<path d="M128 163L176.00 79.86" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="187.50" y="63.94" text-anchor="start" font-size="10.5">民主</text>
+<path d="M128 163L211.14 115.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="231.06" y="107.50" text-anchor="start" font-size="10.5">文明</text>
+<path d="M128 163L224.00 163.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="247.00" y="167.00" text-anchor="start" font-size="10.5">和谐</text>
+<path d="M128 163L211.14 211.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="231.06" y="226.50" text-anchor="start" font-size="10.5">自由</text>
+<path d="M128 163L176.00 246.14" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="187.50" y="270.06" text-anchor="start" font-size="10.5">平等</text>
+<path d="M128 163L128.00 259.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="128.00" y="286.00" text-anchor="middle" font-size="10.5">公正</text>
+<path d="M128 163L80.00 246.14" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="68.50" y="270.06" text-anchor="end" font-size="10.5">法治</text>
+<path d="M128 163L44.86 211.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="24.94" y="226.50" text-anchor="end" font-size="10.5">爱国</text>
+<path d="M128 163L32.00 163.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="9.00" y="167.00" text-anchor="end" font-size="10.5">敬业</text>
+<path d="M128 163L44.86 115.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="24.94" y="107.50" text-anchor="end" font-size="10.5">诚信</text>
+<path d="M128 163L80.00 79.86" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="68.50" y="63.94" text-anchor="end" font-size="10.5">友善</text>
+<text x="130" y="166" font-size="7" fill="#777">0</text>
+<polygon points="128.00,89.92 163.94,100.75 192.64,125.68 214.16,163.00 185.05,195.94 168.80,233.67 128.00,244.48 99.68,212.05 59.62,202.48 49.04,163.00 75.00,132.40 88.82,95.14" fill="#858585" fill-opacity=".22" stroke="#858585" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="128.00" cy="89.92" r="2.1" fill="#858585"/>
+<circle cx="163.94" cy="100.75" r="2.1" fill="#858585"/>
+<circle cx="192.64" cy="125.68" r="2.1" fill="#858585"/>
+<circle cx="214.16" cy="163.00" r="2.1" fill="#858585"/>
+<circle cx="185.05" cy="195.94" r="2.1" fill="#858585"/>
+<circle cx="168.80" cy="233.67" r="2.1" fill="#858585"/>
+<circle cx="128.00" cy="244.48" r="2.1" fill="#858585"/>
+<circle cx="99.68" cy="212.05" r="2.1" fill="#858585"/>
+<circle cx="59.62" cy="202.48" r="2.1" fill="#858585"/>
+<circle cx="49.04" cy="163.00" r="2.1" fill="#858585"/>
+<circle cx="75.00" cy="132.40" r="2.1" fill="#858585"/>
+<circle cx="88.82" cy="95.14" r="2.1" fill="#858585"/>
+<polygon points="128.00,92.20 163.34,101.79 196.17,123.64 215.00,163.00 187.44,197.32 170.90,237.30 128.00,253.36 86.48,234.91 60.55,201.94 51.44,163.00 60.24,123.88 88.04,93.79" fill="#0878ed" fill-opacity=".22" stroke="#0878ed" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="128.00" cy="92.20" r="2.1" fill="#0878ed"/>
+<circle cx="163.34" cy="101.79" r="2.1" fill="#0878ed"/>
+<circle cx="196.17" cy="123.64" r="2.1" fill="#0878ed"/>
+<circle cx="215.00" cy="163.00" r="2.1" fill="#0878ed"/>
+<circle cx="187.44" cy="197.32" r="2.1" fill="#0878ed"/>
+<circle cx="170.90" cy="237.30" r="2.1" fill="#0878ed"/>
+<circle cx="128.00" cy="253.36" r="2.1" fill="#0878ed"/>
+<circle cx="86.48" cy="234.91" r="2.1" fill="#0878ed"/>
+<circle cx="60.55" cy="201.94" r="2.1" fill="#0878ed"/>
+<circle cx="51.44" cy="163.00" r="2.1" fill="#0878ed"/>
+<circle cx="60.24" cy="123.88" r="2.1" fill="#0878ed"/>
+<circle cx="88.04" cy="93.79" r="2.1" fill="#0878ed"/>
+<polygon points="128.00,159.86 129.49,160.41 131.14,161.19 131.71,163.00 130.39,164.38 129.83,166.18 128.00,166.80 126.20,166.12 124.97,164.75 124.49,163.00 124.76,161.13 126.26,159.98" fill="#205b93" fill-opacity=".22" stroke="#205b93" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="128.00" cy="159.86" r="2.1" fill="#205b93"/>
+<circle cx="129.49" cy="160.41" r="2.1" fill="#205b93"/>
+<circle cx="131.14" cy="161.19" r="2.1" fill="#205b93"/>
+<circle cx="131.71" cy="163.00" r="2.1" fill="#205b93"/>
+<circle cx="130.39" cy="164.38" r="2.1" fill="#205b93"/>
+<circle cx="129.83" cy="166.18" r="2.1" fill="#205b93"/>
+<circle cx="128.00" cy="166.80" r="2.1" fill="#205b93"/>
+<circle cx="126.20" cy="166.12" r="2.1" fill="#205b93"/>
+<circle cx="124.97" cy="164.75" r="2.1" fill="#205b93"/>
+<circle cx="124.49" cy="163.00" r="2.1" fill="#205b93"/>
+<circle cx="124.76" cy="161.13" r="2.1" fill="#205b93"/>
+<circle cx="126.26" cy="159.98" r="2.1" fill="#205b93"/>
+<polygon points="128.00,159.66 129.66,160.13 131.16,161.18 131.77,163.00 130.66,164.54 129.86,166.22 128.00,166.81 126.16,166.19 124.91,164.79 124.48,163.00 124.70,161.10 126.20,159.88" fill="#145b9a" fill-opacity=".22" stroke="#145b9a" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="128.00" cy="159.66" r="2.1" fill="#145b9a"/>
+<circle cx="129.66" cy="160.13" r="2.1" fill="#145b9a"/>
+<circle cx="131.16" cy="161.18" r="2.1" fill="#145b9a"/>
+<circle cx="131.77" cy="163.00" r="2.1" fill="#145b9a"/>
+<circle cx="130.66" cy="164.54" r="2.1" fill="#145b9a"/>
+<circle cx="129.86" cy="166.22" r="2.1" fill="#145b9a"/>
+<circle cx="128.00" cy="166.81" r="2.1" fill="#145b9a"/>
+<circle cx="126.16" cy="166.19" r="2.1" fill="#145b9a"/>
+<circle cx="124.91" cy="164.79" r="2.1" fill="#145b9a"/>
+<circle cx="124.48" cy="163.00" r="2.1" fill="#145b9a"/>
+<circle cx="124.70" cy="161.10" r="2.1" fill="#145b9a"/>
+<circle cx="126.20" cy="159.88" r="2.1" fill="#145b9a"/>
+<polygon points="128.00,88.12 162.38,103.45 201.89,120.34 215.36,163.00 191.50,199.66 169.76,235.33 128.00,247.84 92.60,224.31 57.23,203.86 44.60,163.00 67.41,128.02 87.02,92.02" fill="#28a745" fill-opacity=".22" stroke="#28a745" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="128.00" cy="88.12" r="2.1" fill="#28a745"/>
+<circle cx="162.38" cy="103.45" r="2.1" fill="#28a745"/>
+<circle cx="201.89" cy="120.34" r="2.1" fill="#28a745"/>
+<circle cx="215.36" cy="163.00" r="2.1" fill="#28a745"/>
+<circle cx="191.50" cy="199.66" r="2.1" fill="#28a745"/>
+<circle cx="169.76" cy="235.33" r="2.1" fill="#28a745"/>
+<circle cx="128.00" cy="247.84" r="2.1" fill="#28a745"/>
+<circle cx="92.60" cy="224.31" r="2.1" fill="#28a745"/>
+<circle cx="57.23" cy="203.86" r="2.1" fill="#28a745"/>
+<circle cx="44.60" cy="163.00" r="2.1" fill="#28a745"/>
+<circle cx="67.41" cy="128.02" r="2.1" fill="#28a745"/>
+<circle cx="87.02" cy="92.02" r="2.1" fill="#28a745"/>
+<polygon points="128.00,91.96 167.30,94.93 207.50,117.10 219.80,163.00 197.00,202.84 173.24,241.36 128.00,256.00 82.28,242.19 59.20,202.72 50.72,163.00 49.64,117.76 84.26,87.24" fill="#ff6b00" fill-opacity=".22" stroke="#ff6b00" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="128.00" cy="91.96" r="2.1" fill="#ff6b00"/>
+<circle cx="167.30" cy="94.93" r="2.1" fill="#ff6b00"/>
+<circle cx="207.50" cy="117.10" r="2.1" fill="#ff6b00"/>
+<circle cx="219.80" cy="163.00" r="2.1" fill="#ff6b00"/>
+<circle cx="197.00" cy="202.84" r="2.1" fill="#ff6b00"/>
+<circle cx="173.24" cy="241.36" r="2.1" fill="#ff6b00"/>
+<circle cx="128.00" cy="256.00" r="2.1" fill="#ff6b00"/>
+<circle cx="82.28" cy="242.19" r="2.1" fill="#ff6b00"/>
+<circle cx="59.20" cy="202.72" r="2.1" fill="#ff6b00"/>
+<circle cx="50.72" cy="163.00" r="2.1" fill="#ff6b00"/>
+<circle cx="49.64" cy="117.76" r="2.1" fill="#ff6b00"/>
+<circle cx="84.26" cy="87.24" r="2.1" fill="#ff6b00"/>
+<text x="384" y="38" text-anchor="middle" font-size="12">英语</text>
+<text x="384" y="53" text-anchor="middle" font-size="11">富强</text>
+<circle cx="384" cy="163" r="19.20" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="386" y="145.8" font-size="7" fill="#777">20</text>
+<circle cx="384" cy="163" r="38.40" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="386" y="126.6" font-size="7" fill="#777">40</text>
+<circle cx="384" cy="163" r="57.60" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="386" y="107.4" font-size="7" fill="#777">60</text>
+<circle cx="384" cy="163" r="76.80" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="386" y="88.2" font-size="7" fill="#777">80</text>
+<circle cx="384" cy="163" r="96.00" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="386" y="69.0" font-size="7" fill="#777">100</text>
+<path d="M384 163L384.00 67.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="384.00" y="48.00" text-anchor="middle" font-size="10.5">富强</text>
+<path d="M384 163L432.00 79.86" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="443.50" y="63.94" text-anchor="start" font-size="10.5">民主</text>
+<path d="M384 163L467.14 115.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="487.06" y="107.50" text-anchor="start" font-size="10.5">文明</text>
+<path d="M384 163L480.00 163.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="503.00" y="167.00" text-anchor="start" font-size="10.5">和谐</text>
+<path d="M384 163L467.14 211.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="487.06" y="226.50" text-anchor="start" font-size="10.5">自由</text>
+<path d="M384 163L432.00 246.14" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="443.50" y="270.06" text-anchor="start" font-size="10.5">平等</text>
+<path d="M384 163L384.00 259.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="384.00" y="286.00" text-anchor="middle" font-size="10.5">公正</text>
+<path d="M384 163L336.00 246.14" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="324.50" y="270.06" text-anchor="end" font-size="10.5">法治</text>
+<path d="M384 163L300.86 211.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="280.94" y="226.50" text-anchor="end" font-size="10.5">爱国</text>
+<path d="M384 163L288.00 163.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="265.00" y="167.00" text-anchor="end" font-size="10.5">敬业</text>
+<path d="M384 163L300.86 115.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="280.94" y="107.50" text-anchor="end" font-size="10.5">诚信</text>
+<path d="M384 163L336.00 79.86" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="324.50" y="63.94" text-anchor="end" font-size="10.5">友善</text>
+<text x="386" y="166" font-size="7" fill="#777">0</text>
+<polygon points="384.00,99.04 413.04,112.70 439.29,131.08 461.04,163.00 430.04,189.58 415.08,216.83 384.00,226.60 362.64,200.00 323.21,198.10 315.72,163.00 342.12,138.82 349.20,102.72" fill="#858585" fill-opacity=".22" stroke="#858585" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="384.00" cy="99.04" r="2.1" fill="#858585"/>
+<circle cx="413.04" cy="112.70" r="2.1" fill="#858585"/>
+<circle cx="439.29" cy="131.08" r="2.1" fill="#858585"/>
+<circle cx="461.04" cy="163.00" r="2.1" fill="#858585"/>
+<circle cx="430.04" cy="189.58" r="2.1" fill="#858585"/>
+<circle cx="415.08" cy="216.83" r="2.1" fill="#858585"/>
+<circle cx="384.00" cy="226.60" r="2.1" fill="#858585"/>
+<circle cx="362.64" cy="200.00" r="2.1" fill="#858585"/>
+<circle cx="323.21" cy="198.10" r="2.1" fill="#858585"/>
+<circle cx="315.72" cy="163.00" r="2.1" fill="#858585"/>
+<circle cx="342.12" cy="138.82" r="2.1" fill="#858585"/>
+<circle cx="349.20" cy="102.72" r="2.1" fill="#858585"/>
+<polygon points="384.00,82.96 422.04,97.11 459.66,119.32 474.96,163.00 448.64,200.32 428.94,240.84 384.00,256.00 339.72,239.70 310.84,205.24 301.20,163.00 306.58,118.30 341.58,89.53" fill="#0878ed" fill-opacity=".22" stroke="#0878ed" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="384.00" cy="82.96" r="2.1" fill="#0878ed"/>
+<circle cx="422.04" cy="97.11" r="2.1" fill="#0878ed"/>
+<circle cx="459.66" cy="119.32" r="2.1" fill="#0878ed"/>
+<circle cx="474.96" cy="163.00" r="2.1" fill="#0878ed"/>
+<circle cx="448.64" cy="200.32" r="2.1" fill="#0878ed"/>
+<circle cx="428.94" cy="240.84" r="2.1" fill="#0878ed"/>
+<circle cx="384.00" cy="256.00" r="2.1" fill="#0878ed"/>
+<circle cx="339.72" cy="239.70" r="2.1" fill="#0878ed"/>
+<circle cx="310.84" cy="205.24" r="2.1" fill="#0878ed"/>
+<circle cx="301.20" cy="163.00" r="2.1" fill="#0878ed"/>
+<circle cx="306.58" cy="118.30" r="2.1" fill="#0878ed"/>
+<circle cx="341.58" cy="89.53" r="2.1" fill="#0878ed"/>
+<polygon points="384.00,160.04 385.44,160.50 386.86,161.35 387.57,163.00 386.22,164.28 385.77,166.07 384.00,166.69 382.26,166.01 381.34,164.54 380.81,163.00 380.91,161.21 382.38,160.19" fill="#205b93" fill-opacity=".22" stroke="#205b93" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="384.00" cy="160.04" r="2.1" fill="#205b93"/>
+<circle cx="385.44" cy="160.50" r="2.1" fill="#205b93"/>
+<circle cx="386.86" cy="161.35" r="2.1" fill="#205b93"/>
+<circle cx="387.57" cy="163.00" r="2.1" fill="#205b93"/>
+<circle cx="386.22" cy="164.28" r="2.1" fill="#205b93"/>
+<circle cx="385.77" cy="166.07" r="2.1" fill="#205b93"/>
+<circle cx="384.00" cy="166.69" r="2.1" fill="#205b93"/>
+<circle cx="382.26" cy="166.01" r="2.1" fill="#205b93"/>
+<circle cx="381.34" cy="164.54" r="2.1" fill="#205b93"/>
+<circle cx="380.81" cy="163.00" r="2.1" fill="#205b93"/>
+<circle cx="380.91" cy="161.21" r="2.1" fill="#205b93"/>
+<circle cx="382.38" cy="160.19" r="2.1" fill="#205b93"/>
+<polygon points="384.00,159.70 385.65,160.15 387.13,161.19 387.76,163.00 386.74,164.58 385.86,166.22 384.00,166.81 382.16,166.19 380.95,164.76 380.57,163.00 380.71,161.10 382.18,159.85" fill="#145b9a" fill-opacity=".22" stroke="#145b9a" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="384.00" cy="159.70" r="2.1" fill="#145b9a"/>
+<circle cx="385.65" cy="160.15" r="2.1" fill="#145b9a"/>
+<circle cx="387.13" cy="161.19" r="2.1" fill="#145b9a"/>
+<circle cx="387.76" cy="163.00" r="2.1" fill="#145b9a"/>
+<circle cx="386.74" cy="164.58" r="2.1" fill="#145b9a"/>
+<circle cx="385.86" cy="166.22" r="2.1" fill="#145b9a"/>
+<circle cx="384.00" cy="166.81" r="2.1" fill="#145b9a"/>
+<circle cx="382.16" cy="166.19" r="2.1" fill="#145b9a"/>
+<circle cx="380.95" cy="164.76" r="2.1" fill="#145b9a"/>
+<circle cx="380.57" cy="163.00" r="2.1" fill="#145b9a"/>
+<circle cx="380.71" cy="161.10" r="2.1" fill="#145b9a"/>
+<circle cx="382.18" cy="159.85" r="2.1" fill="#145b9a"/>
+<polygon points="384.00,88.60 425.34,91.40 464.54,116.50 478.56,163.00 457.68,205.54 429.78,242.29 384.00,254.56 339.02,240.92 310.11,205.66 297.60,163.00 308.97,119.68 339.18,85.37" fill="#28a745" fill-opacity=".22" stroke="#28a745" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="384.00" cy="88.60" r="2.1" fill="#28a745"/>
+<circle cx="425.34" cy="91.40" r="2.1" fill="#28a745"/>
+<circle cx="464.54" cy="116.50" r="2.1" fill="#28a745"/>
+<circle cx="478.56" cy="163.00" r="2.1" fill="#28a745"/>
+<circle cx="457.68" cy="205.54" r="2.1" fill="#28a745"/>
+<circle cx="429.78" cy="242.29" r="2.1" fill="#28a745"/>
+<circle cx="384.00" cy="254.56" r="2.1" fill="#28a745"/>
+<circle cx="339.02" cy="240.92" r="2.1" fill="#28a745"/>
+<circle cx="310.11" cy="205.66" r="2.1" fill="#28a745"/>
+<circle cx="297.60" cy="163.00" r="2.1" fill="#28a745"/>
+<circle cx="308.97" cy="119.68" r="2.1" fill="#28a745"/>
+<circle cx="339.18" cy="85.37" r="2.1" fill="#28a745"/>
+<polygon points="384.00,102.40 416.70,106.36 448.12,125.98 456.48,163.00 439.60,195.10 422.16,229.10 384.00,242.32 345.00,230.55 327.05,195.88 318.48,163.00 320.71,126.46 347.94,100.54" fill="#ff6b00" fill-opacity=".22" stroke="#ff6b00" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="384.00" cy="102.40" r="2.1" fill="#ff6b00"/>
+<circle cx="416.70" cy="106.36" r="2.1" fill="#ff6b00"/>
+<circle cx="448.12" cy="125.98" r="2.1" fill="#ff6b00"/>
+<circle cx="456.48" cy="163.00" r="2.1" fill="#ff6b00"/>
+<circle cx="439.60" cy="195.10" r="2.1" fill="#ff6b00"/>
+<circle cx="422.16" cy="229.10" r="2.1" fill="#ff6b00"/>
+<circle cx="384.00" cy="242.32" r="2.1" fill="#ff6b00"/>
+<circle cx="345.00" cy="230.55" r="2.1" fill="#ff6b00"/>
+<circle cx="327.05" cy="195.88" r="2.1" fill="#ff6b00"/>
+<circle cx="318.48" cy="163.00" r="2.1" fill="#ff6b00"/>
+<circle cx="320.71" cy="126.46" r="2.1" fill="#ff6b00"/>
+<circle cx="347.94" cy="100.54" r="2.1" fill="#ff6b00"/>
+<text x="640" y="38" text-anchor="middle" font-size="12">日语</text>
+<text x="640" y="53" text-anchor="middle" font-size="11">富强</text>
+<circle cx="640" cy="163" r="19.20" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="642" y="145.8" font-size="7" fill="#777">20</text>
+<circle cx="640" cy="163" r="38.40" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="642" y="126.6" font-size="7" fill="#777">40</text>
+<circle cx="640" cy="163" r="57.60" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="642" y="107.4" font-size="7" fill="#777">60</text>
+<circle cx="640" cy="163" r="76.80" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="642" y="88.2" font-size="7" fill="#777">80</text>
+<circle cx="640" cy="163" r="96.00" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="642" y="69.0" font-size="7" fill="#777">100</text>
+<path d="M640 163L640.00 67.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="640.00" y="48.00" text-anchor="middle" font-size="10.5">富强</text>
+<path d="M640 163L688.00 79.86" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="699.50" y="63.94" text-anchor="start" font-size="10.5">民主</text>
+<path d="M640 163L723.14 115.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="743.06" y="107.50" text-anchor="start" font-size="10.5">文明</text>
+<path d="M640 163L736.00 163.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="759.00" y="167.00" text-anchor="start" font-size="10.5">和谐</text>
+<path d="M640 163L723.14 211.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="743.06" y="226.50" text-anchor="start" font-size="10.5">自由</text>
+<path d="M640 163L688.00 246.14" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="699.50" y="270.06" text-anchor="start" font-size="10.5">平等</text>
+<path d="M640 163L640.00 259.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="640.00" y="286.00" text-anchor="middle" font-size="10.5">公正</text>
+<path d="M640 163L592.00 246.14" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="580.50" y="270.06" text-anchor="end" font-size="10.5">法治</text>
+<path d="M640 163L556.86 211.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="536.94" y="226.50" text-anchor="end" font-size="10.5">爱国</text>
+<path d="M640 163L544.00 163.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="521.00" y="167.00" text-anchor="end" font-size="10.5">敬业</text>
+<path d="M640 163L556.86 115.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="536.94" y="107.50" text-anchor="end" font-size="10.5">诚信</text>
+<path d="M640 163L592.00 79.86" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="580.50" y="63.94" text-anchor="end" font-size="10.5">友善</text>
+<text x="642" y="166" font-size="7" fill="#777">0</text>
+<polygon points="640.00,98.80 671.08,109.17 690.92,133.60 709.24,163.00 689.47,191.56 670.00,214.96 640.00,230.44 620.44,196.88 583.78,195.46 573.28,163.00 594.17,136.54 606.28,104.60" fill="#858585" fill-opacity=".22" stroke="#858585" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="640.00" cy="98.80" r="2.1" fill="#858585"/>
+<circle cx="671.08" cy="109.17" r="2.1" fill="#858585"/>
+<circle cx="690.92" cy="133.60" r="2.1" fill="#858585"/>
+<circle cx="709.24" cy="163.00" r="2.1" fill="#858585"/>
+<circle cx="689.47" cy="191.56" r="2.1" fill="#858585"/>
+<circle cx="670.00" cy="214.96" r="2.1" fill="#858585"/>
+<circle cx="640.00" cy="230.44" r="2.1" fill="#858585"/>
+<circle cx="620.44" cy="196.88" r="2.1" fill="#858585"/>
+<circle cx="583.78" cy="195.46" r="2.1" fill="#858585"/>
+<circle cx="573.28" cy="163.00" r="2.1" fill="#858585"/>
+<circle cx="594.17" cy="136.54" r="2.1" fill="#858585"/>
+<circle cx="606.28" cy="104.60" r="2.1" fill="#858585"/>
+<polygon points="640.00,90.88 675.10,102.21 704.95,125.50 724.24,163.00 700.28,197.80 681.16,234.29 640.00,249.64 605.26,223.17 575.46,200.26 564.64,163.00 574.94,125.44 600.88,95.24" fill="#0878ed" fill-opacity=".22" stroke="#0878ed" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="640.00" cy="90.88" r="2.1" fill="#0878ed"/>
+<circle cx="675.10" cy="102.21" r="2.1" fill="#0878ed"/>
+<circle cx="704.95" cy="125.50" r="2.1" fill="#0878ed"/>
+<circle cx="724.24" cy="163.00" r="2.1" fill="#0878ed"/>
+<circle cx="700.28" cy="197.80" r="2.1" fill="#0878ed"/>
+<circle cx="681.16" cy="234.29" r="2.1" fill="#0878ed"/>
+<circle cx="640.00" cy="249.64" r="2.1" fill="#0878ed"/>
+<circle cx="605.26" cy="223.17" r="2.1" fill="#0878ed"/>
+<circle cx="575.46" cy="200.26" r="2.1" fill="#0878ed"/>
+<circle cx="564.64" cy="163.00" r="2.1" fill="#0878ed"/>
+<circle cx="574.94" cy="125.44" r="2.1" fill="#0878ed"/>
+<circle cx="600.88" cy="95.24" r="2.1" fill="#0878ed"/>
+<polygon points="640.00,159.69 641.63,160.18 643.14,161.19 643.77,163.00 642.64,164.52 641.87,166.24 640.00,166.82 638.15,166.20 637.06,164.70 636.45,163.00 636.71,161.10 638.21,159.90" fill="#205b93" fill-opacity=".22" stroke="#205b93" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="640.00" cy="159.69" r="2.1" fill="#205b93"/>
+<circle cx="641.63" cy="160.18" r="2.1" fill="#205b93"/>
+<circle cx="643.14" cy="161.19" r="2.1" fill="#205b93"/>
+<circle cx="643.77" cy="163.00" r="2.1" fill="#205b93"/>
+<circle cx="642.64" cy="164.52" r="2.1" fill="#205b93"/>
+<circle cx="641.87" cy="166.24" r="2.1" fill="#205b93"/>
+<circle cx="640.00" cy="166.82" r="2.1" fill="#205b93"/>
+<circle cx="638.15" cy="166.20" r="2.1" fill="#205b93"/>
+<circle cx="637.06" cy="164.70" r="2.1" fill="#205b93"/>
+<circle cx="636.45" cy="163.00" r="2.1" fill="#205b93"/>
+<circle cx="636.71" cy="161.10" r="2.1" fill="#205b93"/>
+<circle cx="638.21" cy="159.90" r="2.1" fill="#205b93"/>
+<polygon points="640.00,159.82 641.67,160.12 643.07,161.23 643.79,163.00 642.78,164.61 641.85,166.21 640.00,166.80 638.17,166.17 637.11,164.67 636.58,163.00 636.74,161.12 638.21,159.89" fill="#145b9a" fill-opacity=".22" stroke="#145b9a" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="640.00" cy="159.82" r="2.1" fill="#145b9a"/>
+<circle cx="641.67" cy="160.12" r="2.1" fill="#145b9a"/>
+<circle cx="643.07" cy="161.23" r="2.1" fill="#145b9a"/>
+<circle cx="643.79" cy="163.00" r="2.1" fill="#145b9a"/>
+<circle cx="642.78" cy="164.61" r="2.1" fill="#145b9a"/>
+<circle cx="641.85" cy="166.21" r="2.1" fill="#145b9a"/>
+<circle cx="640.00" cy="166.80" r="2.1" fill="#145b9a"/>
+<circle cx="638.17" cy="166.17" r="2.1" fill="#145b9a"/>
+<circle cx="637.11" cy="164.67" r="2.1" fill="#145b9a"/>
+<circle cx="636.58" cy="163.00" r="2.1" fill="#145b9a"/>
+<circle cx="636.74" cy="161.12" r="2.1" fill="#145b9a"/>
+<circle cx="638.21" cy="159.89" r="2.1" fill="#145b9a"/>
+<polygon points="640.00,88.00 676.24,100.23 712.95,120.88 729.88,163.00 705.26,200.68 680.62,233.36 640.00,245.20 603.04,227.02 575.15,200.44 556.48,163.00 573.90,124.84 598.60,91.29" fill="#28a745" fill-opacity=".22" stroke="#28a745" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="640.00" cy="88.00" r="2.1" fill="#28a745"/>
+<circle cx="676.24" cy="100.23" r="2.1" fill="#28a745"/>
+<circle cx="712.95" cy="120.88" r="2.1" fill="#28a745"/>
+<circle cx="729.88" cy="163.00" r="2.1" fill="#28a745"/>
+<circle cx="705.26" cy="200.68" r="2.1" fill="#28a745"/>
+<circle cx="680.62" cy="233.36" r="2.1" fill="#28a745"/>
+<circle cx="640.00" cy="245.20" r="2.1" fill="#28a745"/>
+<circle cx="603.04" cy="227.02" r="2.1" fill="#28a745"/>
+<circle cx="575.15" cy="200.44" r="2.1" fill="#28a745"/>
+<circle cx="556.48" cy="163.00" r="2.1" fill="#28a745"/>
+<circle cx="573.90" cy="124.84" r="2.1" fill="#28a745"/>
+<circle cx="598.60" cy="91.29" r="2.1" fill="#28a745"/>
+<polygon points="640.00,86.44 680.68,92.54 719.92,116.86 732.28,163.00 714.20,205.84 685.36,241.57 640.00,251.92 594.52,241.77 569.64,203.62 556.96,163.00 562.89,118.48 596.14,87.03" fill="#ff6b00" fill-opacity=".22" stroke="#ff6b00" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="640.00" cy="86.44" r="2.1" fill="#ff6b00"/>
+<circle cx="680.68" cy="92.54" r="2.1" fill="#ff6b00"/>
+<circle cx="719.92" cy="116.86" r="2.1" fill="#ff6b00"/>
+<circle cx="732.28" cy="163.00" r="2.1" fill="#ff6b00"/>
+<circle cx="714.20" cy="205.84" r="2.1" fill="#ff6b00"/>
+<circle cx="685.36" cy="241.57" r="2.1" fill="#ff6b00"/>
+<circle cx="640.00" cy="251.92" r="2.1" fill="#ff6b00"/>
+<circle cx="594.52" cy="241.77" r="2.1" fill="#ff6b00"/>
+<circle cx="569.64" cy="203.62" r="2.1" fill="#ff6b00"/>
+<circle cx="556.96" cy="163.00" r="2.1" fill="#ff6b00"/>
+<circle cx="562.89" cy="118.48" r="2.1" fill="#ff6b00"/>
+<circle cx="596.14" cy="87.03" r="2.1" fill="#ff6b00"/>
+<text x="896" y="38" text-anchor="middle" font-size="12">俄语</text>
+<text x="896" y="53" text-anchor="middle" font-size="11">富强</text>
+<circle cx="896" cy="163" r="19.20" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="898" y="145.8" font-size="7" fill="#777">20</text>
+<circle cx="896" cy="163" r="38.40" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="898" y="126.6" font-size="7" fill="#777">40</text>
+<circle cx="896" cy="163" r="57.60" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="898" y="107.4" font-size="7" fill="#777">60</text>
+<circle cx="896" cy="163" r="76.80" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="898" y="88.2" font-size="7" fill="#777">80</text>
+<circle cx="896" cy="163" r="96.00" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="898" y="69.0" font-size="7" fill="#777">100</text>
+<path d="M896 163L896.00 67.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="896.00" y="48.00" text-anchor="middle" font-size="10.5">富强</text>
+<path d="M896 163L944.00 79.86" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="955.50" y="63.94" text-anchor="start" font-size="10.5">民主</text>
+<path d="M896 163L979.14 115.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="999.06" y="107.50" text-anchor="start" font-size="10.5">文明</text>
+<path d="M896 163L992.00 163.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1015.00" y="167.00" text-anchor="start" font-size="10.5">和谐</text>
+<path d="M896 163L979.14 211.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="999.06" y="226.50" text-anchor="start" font-size="10.5">自由</text>
+<path d="M896 163L944.00 246.14" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="955.50" y="270.06" text-anchor="start" font-size="10.5">平等</text>
+<path d="M896 163L896.00 259.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="896.00" y="286.00" text-anchor="middle" font-size="10.5">公正</text>
+<path d="M896 163L848.00 246.14" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="836.50" y="270.06" text-anchor="end" font-size="10.5">法治</text>
+<path d="M896 163L812.86 211.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="792.94" y="226.50" text-anchor="end" font-size="10.5">爱国</text>
+<path d="M896 163L800.00 163.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="777.00" y="167.00" text-anchor="end" font-size="10.5">敬业</text>
+<path d="M896 163L812.86 115.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="792.94" y="107.50" text-anchor="end" font-size="10.5">诚信</text>
+<path d="M896 163L848.00 79.86" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="836.50" y="63.94" text-anchor="end" font-size="10.5">友善</text>
+<text x="898" y="166" font-size="7" fill="#777">0</text>
+<polygon points="896.00,91.48 928.94,105.95 962.82,124.42 976.40,163.00 950.56,194.50 932.30,225.87 896.00,245.20 860.42,224.63 832.30,199.78 822.68,163.00 838.01,129.52 858.62,98.26" fill="#858585" fill-opacity=".22" stroke="#858585" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="896.00" cy="91.48" r="2.1" fill="#858585"/>
+<circle cx="928.94" cy="105.95" r="2.1" fill="#858585"/>
+<circle cx="962.82" cy="124.42" r="2.1" fill="#858585"/>
+<circle cx="976.40" cy="163.00" r="2.1" fill="#858585"/>
+<circle cx="950.56" cy="194.50" r="2.1" fill="#858585"/>
+<circle cx="932.30" cy="225.87" r="2.1" fill="#858585"/>
+<circle cx="896.00" cy="245.20" r="2.1" fill="#858585"/>
+<circle cx="860.42" cy="224.63" r="2.1" fill="#858585"/>
+<circle cx="832.30" cy="199.78" r="2.1" fill="#858585"/>
+<circle cx="822.68" cy="163.00" r="2.1" fill="#858585"/>
+<circle cx="838.01" cy="129.52" r="2.1" fill="#858585"/>
+<circle cx="858.62" cy="98.26" r="2.1" fill="#858585"/>
+<polygon points="896.00,92.32 930.86,102.62 959.39,126.40 972.20,163.00 955.03,197.08 934.16,229.10 896.00,243.40 858.56,227.85 833.13,199.30 824.84,163.00 831.67,125.86 859.58,99.92" fill="#0878ed" fill-opacity=".22" stroke="#0878ed" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="896.00" cy="92.32" r="2.1" fill="#0878ed"/>
+<circle cx="930.86" cy="102.62" r="2.1" fill="#0878ed"/>
+<circle cx="959.39" cy="126.40" r="2.1" fill="#0878ed"/>
+<circle cx="972.20" cy="163.00" r="2.1" fill="#0878ed"/>
+<circle cx="955.03" cy="197.08" r="2.1" fill="#0878ed"/>
+<circle cx="934.16" cy="229.10" r="2.1" fill="#0878ed"/>
+<circle cx="896.00" cy="243.40" r="2.1" fill="#0878ed"/>
+<circle cx="858.56" cy="227.85" r="2.1" fill="#0878ed"/>
+<circle cx="833.13" cy="199.30" r="2.1" fill="#0878ed"/>
+<circle cx="824.84" cy="163.00" r="2.1" fill="#0878ed"/>
+<circle cx="831.67" cy="125.86" r="2.1" fill="#0878ed"/>
+<circle cx="859.58" cy="99.92" r="2.1" fill="#0878ed"/>
+<polygon points="896.00,159.95 897.52,160.37 898.96,161.29 899.52,163.00 898.50,164.44 897.81,166.14 896.00,166.71 894.23,166.07 893.28,164.57 892.81,163.00 892.84,161.18 894.35,160.14" fill="#205b93" fill-opacity=".22" stroke="#205b93" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="896.00" cy="159.95" r="2.1" fill="#205b93"/>
+<circle cx="897.52" cy="160.37" r="2.1" fill="#205b93"/>
+<circle cx="898.96" cy="161.29" r="2.1" fill="#205b93"/>
+<circle cx="899.52" cy="163.00" r="2.1" fill="#205b93"/>
+<circle cx="898.50" cy="164.44" r="2.1" fill="#205b93"/>
+<circle cx="897.81" cy="166.14" r="2.1" fill="#205b93"/>
+<circle cx="896.00" cy="166.71" r="2.1" fill="#205b93"/>
+<circle cx="894.23" cy="166.07" r="2.1" fill="#205b93"/>
+<circle cx="893.28" cy="164.57" r="2.1" fill="#205b93"/>
+<circle cx="892.81" cy="163.00" r="2.1" fill="#205b93"/>
+<circle cx="892.84" cy="161.18" r="2.1" fill="#205b93"/>
+<circle cx="894.35" cy="160.14" r="2.1" fill="#205b93"/>
+<polygon points="896.00,159.89 897.57,160.28 899.00,161.27 899.70,163.00 898.61,164.51 897.81,166.14 896.00,166.77 894.25,166.03 893.21,164.61 892.78,163.00 892.80,161.15 894.27,160.00" fill="#145b9a" fill-opacity=".22" stroke="#145b9a" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="896.00" cy="159.89" r="2.1" fill="#145b9a"/>
+<circle cx="897.57" cy="160.28" r="2.1" fill="#145b9a"/>
+<circle cx="899.00" cy="161.27" r="2.1" fill="#145b9a"/>
+<circle cx="899.70" cy="163.00" r="2.1" fill="#145b9a"/>
+<circle cx="898.61" cy="164.51" r="2.1" fill="#145b9a"/>
+<circle cx="897.81" cy="166.14" r="2.1" fill="#145b9a"/>
+<circle cx="896.00" cy="166.77" r="2.1" fill="#145b9a"/>
+<circle cx="894.25" cy="166.03" r="2.1" fill="#145b9a"/>
+<circle cx="893.21" cy="164.61" r="2.1" fill="#145b9a"/>
+<circle cx="892.78" cy="163.00" r="2.1" fill="#145b9a"/>
+<circle cx="892.80" cy="161.15" r="2.1" fill="#145b9a"/>
+<circle cx="894.27" cy="160.00" r="2.1" fill="#145b9a"/>
+<polygon points="896.00,81.16 935.90,93.89 973.63,118.18 987.56,163.00 965.73,203.26 937.16,234.29 896.00,253.84 855.74,232.73 825.96,203.44 811.64,163.00 821.59,120.04 852.50,87.66" fill="#28a745" fill-opacity=".22" stroke="#28a745" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="896.00" cy="81.16" r="2.1" fill="#28a745"/>
+<circle cx="935.90" cy="93.89" r="2.1" fill="#28a745"/>
+<circle cx="973.63" cy="118.18" r="2.1" fill="#28a745"/>
+<circle cx="987.56" cy="163.00" r="2.1" fill="#28a745"/>
+<circle cx="965.73" cy="203.26" r="2.1" fill="#28a745"/>
+<circle cx="937.16" cy="234.29" r="2.1" fill="#28a745"/>
+<circle cx="896.00" cy="253.84" r="2.1" fill="#28a745"/>
+<circle cx="855.74" cy="232.73" r="2.1" fill="#28a745"/>
+<circle cx="825.96" cy="203.44" r="2.1" fill="#28a745"/>
+<circle cx="811.64" cy="163.00" r="2.1" fill="#28a745"/>
+<circle cx="821.59" cy="120.04" r="2.1" fill="#28a745"/>
+<circle cx="852.50" cy="87.66" r="2.1" fill="#28a745"/>
+<polygon points="896.00,99.04 929.12,105.63 959.91,126.10 967.76,163.00 952.64,195.70 932.06,225.46 896.00,238.24 858.68,227.64 838.53,196.18 832.16,163.00 834.17,127.30 860.42,101.37" fill="#ff6b00" fill-opacity=".22" stroke="#ff6b00" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="896.00" cy="99.04" r="2.1" fill="#ff6b00"/>
+<circle cx="929.12" cy="105.63" r="2.1" fill="#ff6b00"/>
+<circle cx="959.91" cy="126.10" r="2.1" fill="#ff6b00"/>
+<circle cx="967.76" cy="163.00" r="2.1" fill="#ff6b00"/>
+<circle cx="952.64" cy="195.70" r="2.1" fill="#ff6b00"/>
+<circle cx="932.06" cy="225.46" r="2.1" fill="#ff6b00"/>
+<circle cx="896.00" cy="238.24" r="2.1" fill="#ff6b00"/>
+<circle cx="858.68" cy="227.64" r="2.1" fill="#ff6b00"/>
+<circle cx="838.53" cy="196.18" r="2.1" fill="#ff6b00"/>
+<circle cx="832.16" cy="163.00" r="2.1" fill="#ff6b00"/>
+<circle cx="834.17" cy="127.30" r="2.1" fill="#ff6b00"/>
+<circle cx="860.42" cy="101.37" r="2.1" fill="#ff6b00"/>
+<text x="1152" y="38" text-anchor="middle" font-size="12">西班牙语</text>
+<text x="1152" y="53" text-anchor="middle" font-size="11">富强</text>
+<circle cx="1152" cy="163" r="19.20" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="1154" y="145.8" font-size="7" fill="#777">20</text>
+<circle cx="1152" cy="163" r="38.40" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="1154" y="126.6" font-size="7" fill="#777">40</text>
+<circle cx="1152" cy="163" r="57.60" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="1154" y="107.4" font-size="7" fill="#777">60</text>
+<circle cx="1152" cy="163" r="76.80" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="1154" y="88.2" font-size="7" fill="#777">80</text>
+<circle cx="1152" cy="163" r="96.00" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="1154" y="69.0" font-size="7" fill="#777">100</text>
+<path d="M1152 163L1152.00 67.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1152.00" y="48.00" text-anchor="middle" font-size="10.5">富强</text>
+<path d="M1152 163L1200.00 79.86" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1211.50" y="63.94" text-anchor="start" font-size="10.5">民主</text>
+<path d="M1152 163L1235.14 115.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1255.06" y="107.50" text-anchor="start" font-size="10.5">文明</text>
+<path d="M1152 163L1248.00 163.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1271.00" y="167.00" text-anchor="start" font-size="10.5">和谐</text>
+<path d="M1152 163L1235.14 211.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1255.06" y="226.50" text-anchor="start" font-size="10.5">自由</text>
+<path d="M1152 163L1200.00 246.14" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1211.50" y="270.06" text-anchor="start" font-size="10.5">平等</text>
+<path d="M1152 163L1152.00 259.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1152.00" y="286.00" text-anchor="middle" font-size="10.5">公正</text>
+<path d="M1152 163L1104.00 246.14" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1092.50" y="270.06" text-anchor="end" font-size="10.5">法治</text>
+<path d="M1152 163L1068.86 211.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1048.94" y="226.50" text-anchor="end" font-size="10.5">爱国</text>
+<path d="M1152 163L1056.00 163.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1033.00" y="167.00" text-anchor="end" font-size="10.5">敬业</text>
+<path d="M1152 163L1068.86 115.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1048.94" y="107.50" text-anchor="end" font-size="10.5">诚信</text>
+<path d="M1152 163L1104.00 79.86" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1092.50" y="63.94" text-anchor="end" font-size="10.5">友善</text>
+<text x="1154" y="166" font-size="7" fill="#777">0</text>
+<polygon points="1152.00,100.84 1183.02,109.27 1208.95,130.12 1227.36,163.00 1199.91,190.66 1184.34,219.01 1152.00,229.36 1130.52,200.20 1094.22,196.36 1085.76,163.00 1107.42,137.26 1117.38,103.04" fill="#858585" fill-opacity=".22" stroke="#858585" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="1152.00" cy="100.84" r="2.1" fill="#858585"/>
+<circle cx="1183.02" cy="109.27" r="2.1" fill="#858585"/>
+<circle cx="1208.95" cy="130.12" r="2.1" fill="#858585"/>
+<circle cx="1227.36" cy="163.00" r="2.1" fill="#858585"/>
+<circle cx="1199.91" cy="190.66" r="2.1" fill="#858585"/>
+<circle cx="1184.34" cy="219.01" r="2.1" fill="#858585"/>
+<circle cx="1152.00" cy="229.36" r="2.1" fill="#858585"/>
+<circle cx="1130.52" cy="200.20" r="2.1" fill="#858585"/>
+<circle cx="1094.22" cy="196.36" r="2.1" fill="#858585"/>
+<circle cx="1085.76" cy="163.00" r="2.1" fill="#858585"/>
+<circle cx="1107.42" cy="137.26" r="2.1" fill="#858585"/>
+<circle cx="1117.38" cy="103.04" r="2.1" fill="#858585"/>
+<polygon points="1152.00,92.56 1184.16,107.30 1214.04,127.18 1226.76,163.00 1207.81,195.22 1190.52,229.72 1152.00,244.12 1114.62,227.74 1090.06,198.76 1080.96,163.00 1088.61,126.40 1115.64,100.02" fill="#0878ed" fill-opacity=".22" stroke="#0878ed" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="1152.00" cy="92.56" r="2.1" fill="#0878ed"/>
+<circle cx="1184.16" cy="107.30" r="2.1" fill="#0878ed"/>
+<circle cx="1214.04" cy="127.18" r="2.1" fill="#0878ed"/>
+<circle cx="1226.76" cy="163.00" r="2.1" fill="#0878ed"/>
+<circle cx="1207.81" cy="195.22" r="2.1" fill="#0878ed"/>
+<circle cx="1190.52" cy="229.72" r="2.1" fill="#0878ed"/>
+<circle cx="1152.00" cy="244.12" r="2.1" fill="#0878ed"/>
+<circle cx="1114.62" cy="227.74" r="2.1" fill="#0878ed"/>
+<circle cx="1090.06" cy="198.76" r="2.1" fill="#0878ed"/>
+<circle cx="1080.96" cy="163.00" r="2.1" fill="#0878ed"/>
+<circle cx="1088.61" cy="126.40" r="2.1" fill="#0878ed"/>
+<circle cx="1115.64" cy="100.02" r="2.1" fill="#0878ed"/>
+<polygon points="1152.00,160.05 1153.46,160.47 1154.84,161.36 1155.51,163.00 1154.42,164.39 1153.79,166.09 1152.00,166.71 1150.25,166.03 1149.32,164.55 1148.87,163.00 1148.84,161.18 1150.36,160.16" fill="#205b93" fill-opacity=".22" stroke="#205b93" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="1152.00" cy="160.05" r="2.1" fill="#205b93"/>
+<circle cx="1153.46" cy="160.47" r="2.1" fill="#205b93"/>
+<circle cx="1154.84" cy="161.36" r="2.1" fill="#205b93"/>
+<circle cx="1155.51" cy="163.00" r="2.1" fill="#205b93"/>
+<circle cx="1154.42" cy="164.39" r="2.1" fill="#205b93"/>
+<circle cx="1153.79" cy="166.09" r="2.1" fill="#205b93"/>
+<circle cx="1152.00" cy="166.71" r="2.1" fill="#205b93"/>
+<circle cx="1150.25" cy="166.03" r="2.1" fill="#205b93"/>
+<circle cx="1149.32" cy="164.55" r="2.1" fill="#205b93"/>
+<circle cx="1148.87" cy="163.00" r="2.1" fill="#205b93"/>
+<circle cx="1148.84" cy="161.18" r="2.1" fill="#205b93"/>
+<circle cx="1150.36" cy="160.16" r="2.1" fill="#205b93"/>
+<polygon points="1152.00,159.80 1153.58,160.27 1155.04,161.25 1155.74,163.00 1154.68,164.55 1153.84,166.19 1152.00,166.78 1150.22,166.08 1149.13,164.66 1148.64,163.00 1148.75,161.12 1150.24,159.94" fill="#145b9a" fill-opacity=".22" stroke="#145b9a" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="1152.00" cy="159.80" r="2.1" fill="#145b9a"/>
+<circle cx="1153.58" cy="160.27" r="2.1" fill="#145b9a"/>
+<circle cx="1155.04" cy="161.25" r="2.1" fill="#145b9a"/>
+<circle cx="1155.74" cy="163.00" r="2.1" fill="#145b9a"/>
+<circle cx="1154.68" cy="164.55" r="2.1" fill="#145b9a"/>
+<circle cx="1153.84" cy="166.19" r="2.1" fill="#145b9a"/>
+<circle cx="1152.00" cy="166.78" r="2.1" fill="#145b9a"/>
+<circle cx="1150.22" cy="166.08" r="2.1" fill="#145b9a"/>
+<circle cx="1149.13" cy="164.66" r="2.1" fill="#145b9a"/>
+<circle cx="1148.64" cy="163.00" r="2.1" fill="#145b9a"/>
+<circle cx="1148.75" cy="161.12" r="2.1" fill="#145b9a"/>
+<circle cx="1150.24" cy="159.94" r="2.1" fill="#145b9a"/>
+<polygon points="1152.00,93.40 1188.18,100.33 1222.98,122.02 1240.68,163.00 1219.86,202.18 1192.02,232.32 1152.00,246.16 1114.44,228.06 1089.54,199.06 1074.36,163.00 1082.06,122.62 1111.08,92.12" fill="#28a745" fill-opacity=".22" stroke="#28a745" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="1152.00" cy="93.40" r="2.1" fill="#28a745"/>
+<circle cx="1188.18" cy="100.33" r="2.1" fill="#28a745"/>
+<circle cx="1222.98" cy="122.02" r="2.1" fill="#28a745"/>
+<circle cx="1240.68" cy="163.00" r="2.1" fill="#28a745"/>
+<circle cx="1219.86" cy="202.18" r="2.1" fill="#28a745"/>
+<circle cx="1192.02" cy="232.32" r="2.1" fill="#28a745"/>
+<circle cx="1152.00" cy="246.16" r="2.1" fill="#28a745"/>
+<circle cx="1114.44" cy="228.06" r="2.1" fill="#28a745"/>
+<circle cx="1089.54" cy="199.06" r="2.1" fill="#28a745"/>
+<circle cx="1074.36" cy="163.00" r="2.1" fill="#28a745"/>
+<circle cx="1082.06" cy="122.62" r="2.1" fill="#28a745"/>
+<circle cx="1111.08" cy="92.12" r="2.1" fill="#28a745"/>
+<polygon points="1152.00,91.72 1189.32,98.36 1226.30,120.10 1236.60,163.00 1219.03,201.70 1195.68,238.66 1152.00,250.96 1108.80,237.82 1086.63,200.74 1078.32,163.00 1079.46,121.12 1111.32,92.54" fill="#ff6b00" fill-opacity=".22" stroke="#ff6b00" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="1152.00" cy="91.72" r="2.1" fill="#ff6b00"/>
+<circle cx="1189.32" cy="98.36" r="2.1" fill="#ff6b00"/>
+<circle cx="1226.30" cy="120.10" r="2.1" fill="#ff6b00"/>
+<circle cx="1236.60" cy="163.00" r="2.1" fill="#ff6b00"/>
+<circle cx="1219.03" cy="201.70" r="2.1" fill="#ff6b00"/>
+<circle cx="1195.68" cy="238.66" r="2.1" fill="#ff6b00"/>
+<circle cx="1152.00" cy="250.96" r="2.1" fill="#ff6b00"/>
+<circle cx="1108.80" cy="237.82" r="2.1" fill="#ff6b00"/>
+<circle cx="1086.63" cy="200.74" r="2.1" fill="#ff6b00"/>
+<circle cx="1078.32" cy="163.00" r="2.1" fill="#ff6b00"/>
+<circle cx="1079.46" cy="121.12" r="2.1" fill="#ff6b00"/>
+<circle cx="1111.32" cy="92.54" r="2.1" fill="#ff6b00"/>
+<text x="128" y="300" text-anchor="middle" font-size="12">阿拉伯语</text>
+<text x="128" y="315" text-anchor="middle" font-size="11">富强</text>
+<circle cx="128" cy="425" r="19.20" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="130" y="407.8" font-size="7" fill="#777">20</text>
+<circle cx="128" cy="425" r="38.40" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="130" y="388.6" font-size="7" fill="#777">40</text>
+<circle cx="128" cy="425" r="57.60" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="130" y="369.4" font-size="7" fill="#777">60</text>
+<circle cx="128" cy="425" r="76.80" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="130" y="350.2" font-size="7" fill="#777">80</text>
+<circle cx="128" cy="425" r="96.00" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="130" y="331.0" font-size="7" fill="#777">100</text>
+<path d="M128 425L128.00 329.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="128.00" y="310.00" text-anchor="middle" font-size="10.5">富强</text>
+<path d="M128 425L176.00 341.86" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="187.50" y="325.94" text-anchor="start" font-size="10.5">民主</text>
+<path d="M128 425L211.14 377.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="231.06" y="369.50" text-anchor="start" font-size="10.5">文明</text>
+<path d="M128 425L224.00 425.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="247.00" y="429.00" text-anchor="start" font-size="10.5">和谐</text>
+<path d="M128 425L211.14 473.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="231.06" y="488.50" text-anchor="start" font-size="10.5">自由</text>
+<path d="M128 425L176.00 508.14" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="187.50" y="532.06" text-anchor="start" font-size="10.5">平等</text>
+<path d="M128 425L128.00 521.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="128.00" y="548.00" text-anchor="middle" font-size="10.5">公正</text>
+<path d="M128 425L80.00 508.14" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="68.50" y="532.06" text-anchor="end" font-size="10.5">法治</text>
+<path d="M128 425L44.86 473.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="24.94" y="488.50" text-anchor="end" font-size="10.5">爱国</text>
+<path d="M128 425L32.00 425.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="9.00" y="429.00" text-anchor="end" font-size="10.5">敬业</text>
+<path d="M128 425L44.86 377.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="24.94" y="369.50" text-anchor="end" font-size="10.5">诚信</text>
+<path d="M128 425L80.00 341.86" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="68.50" y="325.94" text-anchor="end" font-size="10.5">友善</text>
+<text x="130" y="428" font-size="7" fill="#777">0</text>
+<polygon points="128.00,369.92 154.10,379.79 171.23,400.04 191.72,425.00 166.24,447.08 150.62,464.18 128.00,469.40 113.96,449.32 80.61,452.36 77.96,425.00 94.43,405.62 99.20,375.12" fill="#858585" fill-opacity=".22" stroke="#858585" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="128.00" cy="369.92" r="2.1" fill="#858585"/>
+<circle cx="154.10" cy="379.79" r="2.1" fill="#858585"/>
+<circle cx="171.23" cy="400.04" r="2.1" fill="#858585"/>
+<circle cx="191.72" cy="425.00" r="2.1" fill="#858585"/>
+<circle cx="166.24" cy="447.08" r="2.1" fill="#858585"/>
+<circle cx="150.62" cy="464.18" r="2.1" fill="#858585"/>
+<circle cx="128.00" cy="469.40" r="2.1" fill="#858585"/>
+<circle cx="113.96" cy="449.32" r="2.1" fill="#858585"/>
+<circle cx="80.61" cy="452.36" r="2.1" fill="#858585"/>
+<circle cx="77.96" cy="425.00" r="2.1" fill="#858585"/>
+<circle cx="94.43" cy="405.62" r="2.1" fill="#858585"/>
+<circle cx="99.20" cy="375.12" r="2.1" fill="#858585"/>
+<polygon points="128.00,357.92 160.46,368.78 187.55,390.62 199.52,425.00 181.83,456.08 163.16,485.90 128.00,496.52 95.36,481.53 67.10,460.16 63.08,425.00 69.91,391.46 93.26,364.83" fill="#0878ed" fill-opacity=".22" stroke="#0878ed" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="128.00" cy="357.92" r="2.1" fill="#0878ed"/>
+<circle cx="160.46" cy="368.78" r="2.1" fill="#0878ed"/>
+<circle cx="187.55" cy="390.62" r="2.1" fill="#0878ed"/>
+<circle cx="199.52" cy="425.00" r="2.1" fill="#0878ed"/>
+<circle cx="181.83" cy="456.08" r="2.1" fill="#0878ed"/>
+<circle cx="163.16" cy="485.90" r="2.1" fill="#0878ed"/>
+<circle cx="128.00" cy="496.52" r="2.1" fill="#0878ed"/>
+<circle cx="95.36" cy="481.53" r="2.1" fill="#0878ed"/>
+<circle cx="67.10" cy="460.16" r="2.1" fill="#0878ed"/>
+<circle cx="63.08" cy="425.00" r="2.1" fill="#0878ed"/>
+<circle cx="69.91" cy="391.46" r="2.1" fill="#0878ed"/>
+<circle cx="93.26" cy="364.83" r="2.1" fill="#0878ed"/>
+<polygon points="128.00,422.17 129.37,422.63 130.66,423.47 131.05,425.00 130.27,426.31 129.63,427.83 128.00,428.36 126.36,427.84 125.46,426.47 125.09,425.00 125.22,423.40 126.48,422.36" fill="#205b93" fill-opacity=".22" stroke="#205b93" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="128.00" cy="422.17" r="2.1" fill="#205b93"/>
+<circle cx="129.37" cy="422.63" r="2.1" fill="#205b93"/>
+<circle cx="130.66" cy="423.47" r="2.1" fill="#205b93"/>
+<circle cx="131.05" cy="425.00" r="2.1" fill="#205b93"/>
+<circle cx="130.27" cy="426.31" r="2.1" fill="#205b93"/>
+<circle cx="129.63" cy="427.83" r="2.1" fill="#205b93"/>
+<circle cx="128.00" cy="428.36" r="2.1" fill="#205b93"/>
+<circle cx="126.36" cy="427.84" r="2.1" fill="#205b93"/>
+<circle cx="125.46" cy="426.47" r="2.1" fill="#205b93"/>
+<circle cx="125.09" cy="425.00" r="2.1" fill="#205b93"/>
+<circle cx="125.22" cy="423.40" r="2.1" fill="#205b93"/>
+<circle cx="126.48" cy="422.36" r="2.1" fill="#205b93"/>
+<polygon points="128.00,421.87 129.56,422.30 130.96,423.29 131.68,425.00 130.65,426.53 129.79,428.10 128.00,428.72 126.27,428.00 125.10,426.67 124.68,425.00 124.82,423.16 126.28,422.02" fill="#145b9a" fill-opacity=".22" stroke="#145b9a" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="128.00" cy="421.87" r="2.1" fill="#145b9a"/>
+<circle cx="129.56" cy="422.30" r="2.1" fill="#145b9a"/>
+<circle cx="130.96" cy="423.29" r="2.1" fill="#145b9a"/>
+<circle cx="131.68" cy="425.00" r="2.1" fill="#145b9a"/>
+<circle cx="130.65" cy="426.53" r="2.1" fill="#145b9a"/>
+<circle cx="129.79" cy="428.10" r="2.1" fill="#145b9a"/>
+<circle cx="128.00" cy="428.72" r="2.1" fill="#145b9a"/>
+<circle cx="126.27" cy="428.00" r="2.1" fill="#145b9a"/>
+<circle cx="125.10" cy="426.67" r="2.1" fill="#145b9a"/>
+<circle cx="124.68" cy="425.00" r="2.1" fill="#145b9a"/>
+<circle cx="124.82" cy="423.16" r="2.1" fill="#145b9a"/>
+<circle cx="126.28" cy="422.02" r="2.1" fill="#145b9a"/>
+<polygon points="128.00,356.72 163.70,363.17 195.97,385.76 214.16,425.00 189.73,460.64 165.14,489.33 128.00,494.72 92.96,485.69 61.70,463.28 52.16,425.00 69.60,391.28 90.02,359.22" fill="#28a745" fill-opacity=".22" stroke="#28a745" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="128.00" cy="356.72" r="2.1" fill="#28a745"/>
+<circle cx="163.70" cy="363.17" r="2.1" fill="#28a745"/>
+<circle cx="195.97" cy="385.76" r="2.1" fill="#28a745"/>
+<circle cx="214.16" cy="425.00" r="2.1" fill="#28a745"/>
+<circle cx="189.73" cy="460.64" r="2.1" fill="#28a745"/>
+<circle cx="165.14" cy="489.33" r="2.1" fill="#28a745"/>
+<circle cx="128.00" cy="494.72" r="2.1" fill="#28a745"/>
+<circle cx="92.96" cy="485.69" r="2.1" fill="#28a745"/>
+<circle cx="61.70" cy="463.28" r="2.1" fill="#28a745"/>
+<circle cx="52.16" cy="425.00" r="2.1" fill="#28a745"/>
+<circle cx="69.60" cy="391.28" r="2.1" fill="#28a745"/>
+<circle cx="90.02" cy="359.22" r="2.1" fill="#28a745"/>
+<polygon points="128.00,367.85 158.17,372.75 166.93,402.52 187.62,425.00 167.48,447.79 155.45,472.54 128.00,473.74 109.94,456.28 82.97,451.00 81.71,425.00 88.22,402.04 98.46,373.83" fill="#ff6b00" fill-opacity=".22" stroke="#ff6b00" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="128.00" cy="367.85" r="2.1" fill="#ff6b00"/>
+<circle cx="158.17" cy="372.75" r="2.1" fill="#ff6b00"/>
+<circle cx="166.93" cy="402.52" r="2.1" fill="#ff6b00"/>
+<circle cx="187.62" cy="425.00" r="2.1" fill="#ff6b00"/>
+<circle cx="167.48" cy="447.79" r="2.1" fill="#ff6b00"/>
+<circle cx="155.45" cy="472.54" r="2.1" fill="#ff6b00"/>
+<circle cx="128.00" cy="473.74" r="2.1" fill="#ff6b00"/>
+<circle cx="109.94" cy="456.28" r="2.1" fill="#ff6b00"/>
+<circle cx="82.97" cy="451.00" r="2.1" fill="#ff6b00"/>
+<circle cx="81.71" cy="425.00" r="2.1" fill="#ff6b00"/>
+<circle cx="88.22" cy="402.04" r="2.1" fill="#ff6b00"/>
+<circle cx="98.46" cy="373.83" r="2.1" fill="#ff6b00"/>
+<text x="384" y="300" text-anchor="middle" font-size="12">印尼语</text>
+<text x="384" y="315" text-anchor="middle" font-size="11">富强</text>
+<circle cx="384" cy="425" r="19.20" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="386" y="407.8" font-size="7" fill="#777">20</text>
+<circle cx="384" cy="425" r="38.40" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="386" y="388.6" font-size="7" fill="#777">40</text>
+<circle cx="384" cy="425" r="57.60" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="386" y="369.4" font-size="7" fill="#777">60</text>
+<circle cx="384" cy="425" r="76.80" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="386" y="350.2" font-size="7" fill="#777">80</text>
+<circle cx="384" cy="425" r="96.00" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="386" y="331.0" font-size="7" fill="#777">100</text>
+<path d="M384 425L384.00 329.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="384.00" y="310.00" text-anchor="middle" font-size="10.5">富强</text>
+<path d="M384 425L432.00 341.86" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="443.50" y="325.94" text-anchor="start" font-size="10.5">民主</text>
+<path d="M384 425L467.14 377.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="487.06" y="369.50" text-anchor="start" font-size="10.5">文明</text>
+<path d="M384 425L480.00 425.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="503.00" y="429.00" text-anchor="start" font-size="10.5">和谐</text>
+<path d="M384 425L467.14 473.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="487.06" y="488.50" text-anchor="start" font-size="10.5">自由</text>
+<path d="M384 425L432.00 508.14" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="443.50" y="532.06" text-anchor="start" font-size="10.5">平等</text>
+<path d="M384 425L384.00 521.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="384.00" y="548.00" text-anchor="middle" font-size="10.5">公正</text>
+<path d="M384 425L336.00 508.14" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="324.50" y="532.06" text-anchor="end" font-size="10.5">法治</text>
+<path d="M384 425L300.86 473.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="280.94" y="488.50" text-anchor="end" font-size="10.5">爱国</text>
+<path d="M384 425L288.00 425.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="265.00" y="429.00" text-anchor="end" font-size="10.5">敬业</text>
+<path d="M384 425L300.86 377.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="280.94" y="369.50" text-anchor="end" font-size="10.5">诚信</text>
+<path d="M384 425L336.00 341.86" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="324.50" y="325.94" text-anchor="end" font-size="10.5">友善</text>
+<text x="386" y="428" font-size="7" fill="#777">0</text>
+<polygon points="384.00,352.88 417.06,367.74 449.58,387.14 466.80,425.00 431.91,452.66 420.66,488.50 384.00,499.52 355.20,474.88 320.81,461.48 310.08,425.00 339.11,399.08 345.84,358.90" fill="#858585" fill-opacity=".22" stroke="#858585" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="384.00" cy="352.88" r="2.1" fill="#858585"/>
+<circle cx="417.06" cy="367.74" r="2.1" fill="#858585"/>
+<circle cx="449.58" cy="387.14" r="2.1" fill="#858585"/>
+<circle cx="466.80" cy="425.00" r="2.1" fill="#858585"/>
+<circle cx="431.91" cy="452.66" r="2.1" fill="#858585"/>
+<circle cx="420.66" cy="488.50" r="2.1" fill="#858585"/>
+<circle cx="384.00" cy="499.52" r="2.1" fill="#858585"/>
+<circle cx="355.20" cy="474.88" r="2.1" fill="#858585"/>
+<circle cx="320.81" cy="461.48" r="2.1" fill="#858585"/>
+<circle cx="310.08" cy="425.00" r="2.1" fill="#858585"/>
+<circle cx="339.11" cy="399.08" r="2.1" fill="#858585"/>
+<circle cx="345.84" cy="358.90" r="2.1" fill="#858585"/>
+<polygon points="384.00,351.92 418.98,364.41 451.97,385.76 465.24,425.00 441.37,458.12 425.28,496.50 384.00,509.24 345.24,492.13 317.18,463.58 308.40,425.00 316.97,386.30 345.54,358.39" fill="#0878ed" fill-opacity=".22" stroke="#0878ed" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="384.00" cy="351.92" r="2.1" fill="#0878ed"/>
+<circle cx="418.98" cy="364.41" r="2.1" fill="#0878ed"/>
+<circle cx="451.97" cy="385.76" r="2.1" fill="#0878ed"/>
+<circle cx="465.24" cy="425.00" r="2.1" fill="#0878ed"/>
+<circle cx="441.37" cy="458.12" r="2.1" fill="#0878ed"/>
+<circle cx="425.28" cy="496.50" r="2.1" fill="#0878ed"/>
+<circle cx="384.00" cy="509.24" r="2.1" fill="#0878ed"/>
+<circle cx="345.24" cy="492.13" r="2.1" fill="#0878ed"/>
+<circle cx="317.18" cy="463.58" r="2.1" fill="#0878ed"/>
+<circle cx="308.40" cy="425.00" r="2.1" fill="#0878ed"/>
+<circle cx="316.97" cy="386.30" r="2.1" fill="#0878ed"/>
+<circle cx="345.54" cy="358.39" r="2.1" fill="#0878ed"/>
+<polygon points="384.00,421.89 385.62,422.19 387.08,423.22 387.69,425.00 386.48,426.43 385.84,428.19 384.00,428.77 382.19,428.14 381.15,426.65 380.66,425.00 380.77,423.14 382.27,422.00" fill="#205b93" fill-opacity=".22" stroke="#205b93" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="384.00" cy="421.89" r="2.1" fill="#205b93"/>
+<circle cx="385.62" cy="422.19" r="2.1" fill="#205b93"/>
+<circle cx="387.08" cy="423.22" r="2.1" fill="#205b93"/>
+<circle cx="387.69" cy="425.00" r="2.1" fill="#205b93"/>
+<circle cx="386.48" cy="426.43" r="2.1" fill="#205b93"/>
+<circle cx="385.84" cy="428.19" r="2.1" fill="#205b93"/>
+<circle cx="384.00" cy="428.77" r="2.1" fill="#205b93"/>
+<circle cx="382.19" cy="428.14" r="2.1" fill="#205b93"/>
+<circle cx="381.15" cy="426.65" r="2.1" fill="#205b93"/>
+<circle cx="380.66" cy="425.00" r="2.1" fill="#205b93"/>
+<circle cx="380.77" cy="423.14" r="2.1" fill="#205b93"/>
+<circle cx="382.27" cy="422.00" r="2.1" fill="#205b93"/>
+<polygon points="384.00,421.76 385.67,422.11 387.19,423.16 387.78,425.00 386.75,426.59 385.85,428.21 384.00,428.82 382.19,428.14 380.94,426.77 380.58,425.00 380.71,423.10 382.18,421.84" fill="#145b9a" fill-opacity=".22" stroke="#145b9a" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="384.00" cy="421.76" r="2.1" fill="#145b9a"/>
+<circle cx="385.67" cy="422.11" r="2.1" fill="#145b9a"/>
+<circle cx="387.19" cy="423.16" r="2.1" fill="#145b9a"/>
+<circle cx="387.78" cy="425.00" r="2.1" fill="#145b9a"/>
+<circle cx="386.75" cy="426.59" r="2.1" fill="#145b9a"/>
+<circle cx="385.85" cy="428.21" r="2.1" fill="#145b9a"/>
+<circle cx="384.00" cy="428.82" r="2.1" fill="#145b9a"/>
+<circle cx="382.19" cy="428.14" r="2.1" fill="#145b9a"/>
+<circle cx="380.94" cy="426.77" r="2.1" fill="#145b9a"/>
+<circle cx="380.58" cy="425.00" r="2.1" fill="#145b9a"/>
+<circle cx="380.71" cy="423.10" r="2.1" fill="#145b9a"/>
+<circle cx="382.18" cy="421.84" r="2.1" fill="#145b9a"/>
+<polygon points="384.00,351.56 424.86,354.23 461.42,380.30 477.12,425.00 454.88,465.92 426.60,498.79 384.00,514.04 343.14,495.77 313.02,465.98 300.60,425.00 307.93,381.08 339.66,348.20" fill="#28a745" fill-opacity=".22" stroke="#28a745" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="384.00" cy="351.56" r="2.1" fill="#28a745"/>
+<circle cx="424.86" cy="354.23" r="2.1" fill="#28a745"/>
+<circle cx="461.42" cy="380.30" r="2.1" fill="#28a745"/>
+<circle cx="477.12" cy="425.00" r="2.1" fill="#28a745"/>
+<circle cx="454.88" cy="465.92" r="2.1" fill="#28a745"/>
+<circle cx="426.60" cy="498.79" r="2.1" fill="#28a745"/>
+<circle cx="384.00" cy="514.04" r="2.1" fill="#28a745"/>
+<circle cx="343.14" cy="495.77" r="2.1" fill="#28a745"/>
+<circle cx="313.02" cy="465.98" r="2.1" fill="#28a745"/>
+<circle cx="300.60" cy="425.00" r="2.1" fill="#28a745"/>
+<circle cx="307.93" cy="381.08" r="2.1" fill="#28a745"/>
+<circle cx="339.66" cy="348.20" r="2.1" fill="#28a745"/>
+<polygon points="384.00,353.96 421.62,359.84 456.95,382.88 464.28,425.00 445.94,460.76 424.56,495.25 384.00,507.68 343.20,495.67 318.22,462.98 309.96,425.00 313.64,384.38 344.28,356.20" fill="#ff6b00" fill-opacity=".22" stroke="#ff6b00" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="384.00" cy="353.96" r="2.1" fill="#ff6b00"/>
+<circle cx="421.62" cy="359.84" r="2.1" fill="#ff6b00"/>
+<circle cx="456.95" cy="382.88" r="2.1" fill="#ff6b00"/>
+<circle cx="464.28" cy="425.00" r="2.1" fill="#ff6b00"/>
+<circle cx="445.94" cy="460.76" r="2.1" fill="#ff6b00"/>
+<circle cx="424.56" cy="495.25" r="2.1" fill="#ff6b00"/>
+<circle cx="384.00" cy="507.68" r="2.1" fill="#ff6b00"/>
+<circle cx="343.20" cy="495.67" r="2.1" fill="#ff6b00"/>
+<circle cx="318.22" cy="462.98" r="2.1" fill="#ff6b00"/>
+<circle cx="309.96" cy="425.00" r="2.1" fill="#ff6b00"/>
+<circle cx="313.64" cy="384.38" r="2.1" fill="#ff6b00"/>
+<circle cx="344.28" cy="356.20" r="2.1" fill="#ff6b00"/>
+<text x="640" y="300" text-anchor="middle" font-size="12">越南语</text>
+<text x="640" y="315" text-anchor="middle" font-size="11">富强</text>
+<circle cx="640" cy="425" r="19.20" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="642" y="407.8" font-size="7" fill="#777">20</text>
+<circle cx="640" cy="425" r="38.40" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="642" y="388.6" font-size="7" fill="#777">40</text>
+<circle cx="640" cy="425" r="57.60" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="642" y="369.4" font-size="7" fill="#777">60</text>
+<circle cx="640" cy="425" r="76.80" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="642" y="350.2" font-size="7" fill="#777">80</text>
+<circle cx="640" cy="425" r="96.00" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="642" y="331.0" font-size="7" fill="#777">100</text>
+<path d="M640 425L640.00 329.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="640.00" y="310.00" text-anchor="middle" font-size="10.5">富强</text>
+<path d="M640 425L688.00 341.86" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="699.50" y="325.94" text-anchor="start" font-size="10.5">民主</text>
+<path d="M640 425L723.14 377.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="743.06" y="369.50" text-anchor="start" font-size="10.5">文明</text>
+<path d="M640 425L736.00 425.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="759.00" y="429.00" text-anchor="start" font-size="10.5">和谐</text>
+<path d="M640 425L723.14 473.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="743.06" y="488.50" text-anchor="start" font-size="10.5">自由</text>
+<path d="M640 425L688.00 508.14" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="699.50" y="532.06" text-anchor="start" font-size="10.5">平等</text>
+<path d="M640 425L640.00 521.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="640.00" y="548.00" text-anchor="middle" font-size="10.5">公正</text>
+<path d="M640 425L592.00 508.14" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="580.50" y="532.06" text-anchor="end" font-size="10.5">法治</text>
+<path d="M640 425L556.86 473.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="536.94" y="488.50" text-anchor="end" font-size="10.5">爱国</text>
+<path d="M640 425L544.00 425.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="521.00" y="429.00" text-anchor="end" font-size="10.5">敬业</text>
+<path d="M640 425L556.86 377.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="536.94" y="369.50" text-anchor="end" font-size="10.5">诚信</text>
+<path d="M640 425L592.00 341.86" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="580.50" y="325.94" text-anchor="end" font-size="10.5">友善</text>
+<text x="642" y="428" font-size="7" fill="#777">0</text>
+<polygon points="640.00,355.16 672.04,369.51 698.51,391.22 717.76,425.00 689.47,453.56 675.34,486.21 640.00,488.48 617.32,464.28 578.89,460.28 569.44,425.00 600.51,402.20 604.36,363.27" fill="#858585" fill-opacity=".22" stroke="#858585" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="640.00" cy="355.16" r="2.1" fill="#858585"/>
+<circle cx="672.04" cy="369.51" r="2.1" fill="#858585"/>
+<circle cx="698.51" cy="391.22" r="2.1" fill="#858585"/>
+<circle cx="717.76" cy="425.00" r="2.1" fill="#858585"/>
+<circle cx="689.47" cy="453.56" r="2.1" fill="#858585"/>
+<circle cx="675.34" cy="486.21" r="2.1" fill="#858585"/>
+<circle cx="640.00" cy="488.48" r="2.1" fill="#858585"/>
+<circle cx="617.32" cy="464.28" r="2.1" fill="#858585"/>
+<circle cx="578.89" cy="460.28" r="2.1" fill="#858585"/>
+<circle cx="569.44" cy="425.00" r="2.1" fill="#858585"/>
+<circle cx="600.51" cy="402.20" r="2.1" fill="#858585"/>
+<circle cx="604.36" cy="363.27" r="2.1" fill="#858585"/>
+<polygon points="640.00,354.68 672.94,367.95 703.91,388.10 717.88,425.00 692.90,455.54 679.24,492.97 640.00,506.00 604.30,486.83 575.67,462.14 568.12,425.00 577.65,389.00 602.98,360.88" fill="#0878ed" fill-opacity=".22" stroke="#0878ed" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="640.00" cy="354.68" r="2.1" fill="#0878ed"/>
+<circle cx="672.94" cy="367.95" r="2.1" fill="#0878ed"/>
+<circle cx="703.91" cy="388.10" r="2.1" fill="#0878ed"/>
+<circle cx="717.88" cy="425.00" r="2.1" fill="#0878ed"/>
+<circle cx="692.90" cy="455.54" r="2.1" fill="#0878ed"/>
+<circle cx="679.24" cy="492.97" r="2.1" fill="#0878ed"/>
+<circle cx="640.00" cy="506.00" r="2.1" fill="#0878ed"/>
+<circle cx="604.30" cy="486.83" r="2.1" fill="#0878ed"/>
+<circle cx="575.67" cy="462.14" r="2.1" fill="#0878ed"/>
+<circle cx="568.12" cy="425.00" r="2.1" fill="#0878ed"/>
+<circle cx="577.65" cy="389.00" r="2.1" fill="#0878ed"/>
+<circle cx="602.98" cy="360.88" r="2.1" fill="#0878ed"/>
+<polygon points="640.00,421.93 641.53,422.34 643.05,423.24 643.58,425.00 642.34,426.35 641.83,428.16 640.00,428.76 638.20,428.12 637.16,426.64 636.65,425.00 636.77,423.14 638.30,422.06" fill="#205b93" fill-opacity=".22" stroke="#205b93" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="640.00" cy="421.93" r="2.1" fill="#205b93"/>
+<circle cx="641.53" cy="422.34" r="2.1" fill="#205b93"/>
+<circle cx="643.05" cy="423.24" r="2.1" fill="#205b93"/>
+<circle cx="643.58" cy="425.00" r="2.1" fill="#205b93"/>
+<circle cx="642.34" cy="426.35" r="2.1" fill="#205b93"/>
+<circle cx="641.83" cy="428.16" r="2.1" fill="#205b93"/>
+<circle cx="640.00" cy="428.76" r="2.1" fill="#205b93"/>
+<circle cx="638.20" cy="428.12" r="2.1" fill="#205b93"/>
+<circle cx="637.16" cy="426.64" r="2.1" fill="#205b93"/>
+<circle cx="636.65" cy="425.00" r="2.1" fill="#205b93"/>
+<circle cx="636.77" cy="423.14" r="2.1" fill="#205b93"/>
+<circle cx="638.30" cy="422.06" r="2.1" fill="#205b93"/>
+<polygon points="640.00,421.76 641.67,422.11 643.15,423.18 643.78,425.00 642.66,426.53 641.85,428.21 640.00,428.79 638.20,428.12 636.94,426.77 636.57,425.00 636.71,423.10 638.18,421.85" fill="#145b9a" fill-opacity=".22" stroke="#145b9a" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="640.00" cy="421.76" r="2.1" fill="#145b9a"/>
+<circle cx="641.67" cy="422.11" r="2.1" fill="#145b9a"/>
+<circle cx="643.15" cy="423.18" r="2.1" fill="#145b9a"/>
+<circle cx="643.78" cy="425.00" r="2.1" fill="#145b9a"/>
+<circle cx="642.66" cy="426.53" r="2.1" fill="#145b9a"/>
+<circle cx="641.85" cy="428.21" r="2.1" fill="#145b9a"/>
+<circle cx="640.00" cy="428.79" r="2.1" fill="#145b9a"/>
+<circle cx="638.20" cy="428.12" r="2.1" fill="#145b9a"/>
+<circle cx="636.94" cy="426.77" r="2.1" fill="#145b9a"/>
+<circle cx="636.57" cy="425.00" r="2.1" fill="#145b9a"/>
+<circle cx="636.71" cy="423.10" r="2.1" fill="#145b9a"/>
+<circle cx="638.18" cy="421.85" r="2.1" fill="#145b9a"/>
+<polygon points="640.00,351.20 677.02,360.88 712.54,383.12 730.72,425.00 700.59,459.98 680.80,495.67 640.00,512.96 599.02,495.98 568.81,466.10 555.28,425.00 569.12,384.08 599.68,355.16" fill="#28a745" fill-opacity=".22" stroke="#28a745" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="640.00" cy="351.20" r="2.1" fill="#28a745"/>
+<circle cx="677.02" cy="360.88" r="2.1" fill="#28a745"/>
+<circle cx="712.54" cy="383.12" r="2.1" fill="#28a745"/>
+<circle cx="730.72" cy="425.00" r="2.1" fill="#28a745"/>
+<circle cx="700.59" cy="459.98" r="2.1" fill="#28a745"/>
+<circle cx="680.80" cy="495.67" r="2.1" fill="#28a745"/>
+<circle cx="640.00" cy="512.96" r="2.1" fill="#28a745"/>
+<circle cx="599.02" cy="495.98" r="2.1" fill="#28a745"/>
+<circle cx="568.81" cy="466.10" r="2.1" fill="#28a745"/>
+<circle cx="555.28" cy="425.00" r="2.1" fill="#28a745"/>
+<circle cx="569.12" cy="384.08" r="2.1" fill="#28a745"/>
+<circle cx="599.68" cy="355.16" r="2.1" fill="#28a745"/>
+<polygon points="640.00,363.08 674.03,366.06 698.96,390.96 711.02,425.00 695.70,457.16 672.68,481.60 640.00,488.08 607.94,480.53 582.68,458.09 578.13,425.00 585.27,393.40 605.56,365.35" fill="#ff6b00" fill-opacity=".22" stroke="#ff6b00" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="640.00" cy="363.08" r="2.1" fill="#ff6b00"/>
+<circle cx="674.03" cy="366.06" r="2.1" fill="#ff6b00"/>
+<circle cx="698.96" cy="390.96" r="2.1" fill="#ff6b00"/>
+<circle cx="711.02" cy="425.00" r="2.1" fill="#ff6b00"/>
+<circle cx="695.70" cy="457.16" r="2.1" fill="#ff6b00"/>
+<circle cx="672.68" cy="481.60" r="2.1" fill="#ff6b00"/>
+<circle cx="640.00" cy="488.08" r="2.1" fill="#ff6b00"/>
+<circle cx="607.94" cy="480.53" r="2.1" fill="#ff6b00"/>
+<circle cx="582.68" cy="458.09" r="2.1" fill="#ff6b00"/>
+<circle cx="578.13" cy="425.00" r="2.1" fill="#ff6b00"/>
+<circle cx="585.27" cy="393.40" r="2.1" fill="#ff6b00"/>
+<circle cx="605.56" cy="365.35" r="2.1" fill="#ff6b00"/>
+<text x="896" y="300" text-anchor="middle" font-size="12">高棉语</text>
+<text x="896" y="315" text-anchor="middle" font-size="11">富强</text>
+<circle cx="896" cy="425" r="19.20" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="898" y="407.8" font-size="7" fill="#777">20</text>
+<circle cx="896" cy="425" r="38.40" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="898" y="388.6" font-size="7" fill="#777">40</text>
+<circle cx="896" cy="425" r="57.60" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="898" y="369.4" font-size="7" fill="#777">60</text>
+<circle cx="896" cy="425" r="76.80" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="898" y="350.2" font-size="7" fill="#777">80</text>
+<circle cx="896" cy="425" r="96.00" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="898" y="331.0" font-size="7" fill="#777">100</text>
+<path d="M896 425L896.00 329.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="896.00" y="310.00" text-anchor="middle" font-size="10.5">富强</text>
+<path d="M896 425L944.00 341.86" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="955.50" y="325.94" text-anchor="start" font-size="10.5">民主</text>
+<path d="M896 425L979.14 377.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="999.06" y="369.50" text-anchor="start" font-size="10.5">文明</text>
+<path d="M896 425L992.00 425.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1015.00" y="429.00" text-anchor="start" font-size="10.5">和谐</text>
+<path d="M896 425L979.14 473.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="999.06" y="488.50" text-anchor="start" font-size="10.5">自由</text>
+<path d="M896 425L944.00 508.14" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="955.50" y="532.06" text-anchor="start" font-size="10.5">平等</text>
+<path d="M896 425L896.00 521.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="896.00" y="548.00" text-anchor="middle" font-size="10.5">公正</text>
+<path d="M896 425L848.00 508.14" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="836.50" y="532.06" text-anchor="end" font-size="10.5">法治</text>
+<path d="M896 425L812.86 473.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="792.94" y="488.50" text-anchor="end" font-size="10.5">爱国</text>
+<path d="M896 425L800.00 425.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="777.00" y="429.00" text-anchor="end" font-size="10.5">敬业</text>
+<path d="M896 425L812.86 377.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="792.94" y="369.50" text-anchor="end" font-size="10.5">诚信</text>
+<path d="M896 425L848.00 341.86" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="836.50" y="325.94" text-anchor="end" font-size="10.5">友善</text>
+<text x="898" y="428" font-size="7" fill="#777">0</text>
+<polygon points="896.00,364.52 928.44,368.81 945.57,396.38 961.42,425.00 944.74,453.14 925.16,475.51 896.00,483.60 868.04,473.43 848.09,452.66 835.27,425.00 842.27,393.98 864.56,370.54" fill="#858585" fill-opacity=".22" stroke="#858585" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="896.00" cy="364.52" r="2.1" fill="#858585"/>
+<circle cx="928.44" cy="368.81" r="2.1" fill="#858585"/>
+<circle cx="945.57" cy="396.38" r="2.1" fill="#858585"/>
+<circle cx="961.42" cy="425.00" r="2.1" fill="#858585"/>
+<circle cx="944.74" cy="453.14" r="2.1" fill="#858585"/>
+<circle cx="925.16" cy="475.51" r="2.1" fill="#858585"/>
+<circle cx="896.00" cy="483.60" r="2.1" fill="#858585"/>
+<circle cx="868.04" cy="473.43" r="2.1" fill="#858585"/>
+<circle cx="848.09" cy="452.66" r="2.1" fill="#858585"/>
+<circle cx="835.27" cy="425.00" r="2.1" fill="#858585"/>
+<circle cx="842.27" cy="393.98" r="2.1" fill="#858585"/>
+<circle cx="864.56" cy="370.54" r="2.1" fill="#858585"/>
+<polygon points="896.00,357.68 929.47,367.03 958.35,389.00 973.82,425.00 952.61,457.68 932.36,487.98 896.00,503.58 857.95,490.90 832.92,461.42 825.21,425.00 833.96,389.18 860.06,362.75" fill="#0878ed" fill-opacity=".22" stroke="#0878ed" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="896.00" cy="357.68" r="2.1" fill="#0878ed"/>
+<circle cx="929.47" cy="367.03" r="2.1" fill="#0878ed"/>
+<circle cx="958.35" cy="389.00" r="2.1" fill="#0878ed"/>
+<circle cx="973.82" cy="425.00" r="2.1" fill="#0878ed"/>
+<circle cx="952.61" cy="457.68" r="2.1" fill="#0878ed"/>
+<circle cx="932.36" cy="487.98" r="2.1" fill="#0878ed"/>
+<circle cx="896.00" cy="503.58" r="2.1" fill="#0878ed"/>
+<circle cx="857.95" cy="490.90" r="2.1" fill="#0878ed"/>
+<circle cx="832.92" cy="461.42" r="2.1" fill="#0878ed"/>
+<circle cx="825.21" cy="425.00" r="2.1" fill="#0878ed"/>
+<circle cx="833.96" cy="389.18" r="2.1" fill="#0878ed"/>
+<circle cx="860.06" cy="362.75" r="2.1" fill="#0878ed"/>
+<text x="1152" y="300" text-anchor="middle" font-size="12">维吾尔语</text>
+<text x="1152" y="315" text-anchor="middle" font-size="11">富强</text>
+<circle cx="1152" cy="425" r="19.20" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="1154" y="407.8" font-size="7" fill="#777">20</text>
+<circle cx="1152" cy="425" r="38.40" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="1154" y="388.6" font-size="7" fill="#777">40</text>
+<circle cx="1152" cy="425" r="57.60" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="1154" y="369.4" font-size="7" fill="#777">60</text>
+<circle cx="1152" cy="425" r="76.80" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="1154" y="350.2" font-size="7" fill="#777">80</text>
+<circle cx="1152" cy="425" r="96.00" fill="none" stroke="#777" stroke-opacity=".48" stroke-width=".65"/>
+<text x="1154" y="331.0" font-size="7" fill="#777">100</text>
+<path d="M1152 425L1152.00 329.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1152.00" y="310.00" text-anchor="middle" font-size="10.5">富强</text>
+<path d="M1152 425L1200.00 341.86" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1211.50" y="325.94" text-anchor="start" font-size="10.5">民主</text>
+<path d="M1152 425L1235.14 377.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1255.06" y="369.50" text-anchor="start" font-size="10.5">文明</text>
+<path d="M1152 425L1248.00 425.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1271.00" y="429.00" text-anchor="start" font-size="10.5">和谐</text>
+<path d="M1152 425L1235.14 473.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1255.06" y="488.50" text-anchor="start" font-size="10.5">自由</text>
+<path d="M1152 425L1200.00 508.14" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1211.50" y="532.06" text-anchor="start" font-size="10.5">平等</text>
+<path d="M1152 425L1152.00 521.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1152.00" y="548.00" text-anchor="middle" font-size="10.5">公正</text>
+<path d="M1152 425L1104.00 508.14" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1092.50" y="532.06" text-anchor="end" font-size="10.5">法治</text>
+<path d="M1152 425L1068.86 473.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1048.94" y="488.50" text-anchor="end" font-size="10.5">爱国</text>
+<path d="M1152 425L1056.00 425.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1033.00" y="429.00" text-anchor="end" font-size="10.5">敬业</text>
+<path d="M1152 425L1068.86 377.00" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1048.94" y="369.50" text-anchor="end" font-size="10.5">诚信</text>
+<path d="M1152 425L1104.00 341.86" stroke="#777" stroke-opacity=".42" stroke-width=".6"/>
+<text x="1092.50" y="325.94" text-anchor="end" font-size="10.5">友善</text>
+<text x="1154" y="428" font-size="7" fill="#777">0</text>
+<polygon points="1152.00,357.80 1183.62,370.23 1211.03,390.92 1219.20,425.00 1208.95,457.88 1182.78,478.31 1152.00,487.40 1121.22,478.31 1091.62,459.86 1088.52,425.00 1100.45,395.24 1119.54,368.78" fill="#0878ed" fill-opacity=".22" stroke="#0878ed" stroke-width="1.15" stroke-linejoin="round"/>
+<circle cx="1152.00" cy="357.80" r="2.1" fill="#0878ed"/>
+<circle cx="1183.62" cy="370.23" r="2.1" fill="#0878ed"/>
+<circle cx="1211.03" cy="390.92" r="2.1" fill="#0878ed"/>
+<circle cx="1219.20" cy="425.00" r="2.1" fill="#0878ed"/>
+<circle cx="1208.95" cy="457.88" r="2.1" fill="#0878ed"/>
+<circle cx="1182.78" cy="478.31" r="2.1" fill="#0878ed"/>
+<circle cx="1152.00" cy="487.40" r="2.1" fill="#0878ed"/>
+<circle cx="1121.22" cy="478.31" r="2.1" fill="#0878ed"/>
+<circle cx="1091.62" cy="459.86" r="2.1" fill="#0878ed"/>
+<circle cx="1088.52" cy="425.00" r="2.1" fill="#0878ed"/>
+<circle cx="1100.45" cy="395.24" r="2.1" fill="#0878ed"/>
+<circle cx="1119.54" cy="368.78" r="2.1" fill="#0878ed"/>
+</g></svg>
