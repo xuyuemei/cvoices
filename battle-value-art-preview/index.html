@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>人机对战 · 价值观插图预览</title>
+  <style>
+    :root { font-family: Inter, "Helvetica Neue", Arial, "Noto Sans SC", sans-serif; color: #282535; background: #fff; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    button { font: inherit; cursor: pointer; }
+    .preview { background: #f7f5f8; border-bottom: 1px solid #ebe7ed; padding: 16px max(24px, calc((100vw - 1320px)/2)); }
+    .preview-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 12px; }
+    .preview-heading strong { font-size: 15px; }
+    .preview-heading span { font-size: 12px; color: #766e7a; }
+    .tabs { display: flex; flex-wrap: wrap; gap: 8px; }
+    .tabs button { border: 1px solid #e5dfea; background: #fff; border-radius: 100px; padding: 7px 13px; color: #625a69; font-size: 12px; }
+    .tabs button[aria-pressed="true"] { background: #6c51b7; border-color: #6c51b7; color: #fff; }
+    .shell { width: min(1320px, calc(100% - 80px)); margin: auto; }
+    .topbar { height: 96px; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; border-bottom: 1px solid #eae7ee; }
+    .back { font-size: 13px; font-weight: 600; color: #645d72; }
+    .brand { display: flex; align-items: center; gap: 9px; font-size: 15px; font-weight: 900; letter-spacing: .16em; }
+    .brandmark { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: #ebe4ff; color: #6245c4; font-size: 19px; letter-spacing: 0; }
+    .brandvs { color: #ba624b; }
+    .model { justify-self: end; padding: 9px 13px; border: 1px solid #e8e2f1; border-radius: 100px; background: #f7f5fc; color: #67567c; font-size: 11px; }
+    .progress { display: flex; align-items: flex-end; justify-content: space-between; margin: 44px 0 26px; }
+    .progress div:first-child { display: flex; align-items: baseline; gap: 22px; }
+    .progress small { color: #787181; font-size: 11px; font-weight: 800; letter-spacing: .22em; }
+    .progress strong { font-size: 21px; }.progress strong span { color: #787181; }
+    .track { width: 160px; height: 4px; border-radius: 8px; background: #ece7f1; overflow: hidden; }.track i { display: block; width: 8%; height: 100%; background: #7656ca; }
+    .grid { display: grid; grid-template-columns: minmax(390px, 1.02fr) minmax(440px, .98fr); gap: 58px; align-items: stretch; }
+    .art { position: relative; min-height: 0; overflow: hidden; border-radius: 18px; background: var(--art-bg, #eeeaf0); box-shadow: 0 18px 55px #5d427d14; }
+    .art img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+    .art::after { content: ""; position: absolute; inset: 0; background: #ffffff1b; backdrop-filter: blur(17px) saturate(.8); transition: backdrop-filter .5s, background .5s; }
+    .art.revealed::after { background: linear-gradient(180deg, transparent 60%, #ffffff80); backdrop-filter: blur(0); }
+    .art-label, .art-corner, .art-caption { position: absolute; z-index: 1; left: 34px; color: #463954; }
+    .art-label, .art-corner { font-size: 11px; letter-spacing: .2em; font-weight: 800; }
+    .art-label { top: 32px; }.art-corner { bottom: 30px; opacity: .8; }
+    .art-caption { right: 34px; bottom: 55px; display: flex; align-items: flex-end; justify-content: space-between; font-size: 13px; letter-spacing: .08em; font-weight: 700; }
+    .art-caption strong { font-size: 140px; line-height: .75; letter-spacing: -.08em; }
+    .panel { padding: 16px 0 20px; display: flex; flex-direction: column; }
+    .meta { display: flex; align-items: center; gap: 10px; color: #6846bb; font-size: 11px; font-weight: 800; letter-spacing: .14em; }
+    .dot { width: 7px; height: 7px; border-radius: 50%; background: #8362c8; }
+    h1 { font-size: clamp(36px, 3.6vw, 59px); line-height: 1.14; letter-spacing: -.065em; margin: 27px 0 18px; font-weight: 850; }
+    .answer { margin-top: auto; }.divider { height: 1px; margin: 31px 0 25px; background: #eae5ef; }
+    .choicehead { display: flex; justify-content: space-between; margin-bottom: 14px; }.choicehead strong { font-size: 16px; }.choicehead span { color: #716879; font-size: 11px; }
+    .options { display: grid; gap: 11px; }.option { display: flex; align-items: center; gap: 17px; width: 100%; min-height: 89px; padding: 16px; border: 1px solid #e4dfea; border-radius: 12px; background: #fff; color: #302a3d; text-align: left; box-shadow: 0 3px 12px #49365f05; }
+    .letter { display: grid; place-items: center; flex: none; width: 35px; height: 35px; border: 1px solid #e5dfed; border-radius: 7px; background: #f7f4fb; color: #70617f; font-size: 14px; font-weight: 800; }
+    .option strong { font-size: 15px; line-height: 1.5; font-weight: 650; }.arrow { margin-left: auto; color: #93889f; }
+    .toggle { margin-top: 24px; padding: 11px 18px; background: #7656ca; color: #fff; border: 0; border-radius: 9px; font-size: 13px; font-weight: 700; }
+    @media(max-width: 900px) { .shell { width: calc(100% - 36px); }.grid { grid-template-columns: 1fr; gap: 28px; }.art { aspect-ratio: 1; min-height: 0; }.preview { padding: 16px 18px; }.topbar { height: 78px; }.model { display: none; } }
+  </style>
+</head>
+<body>
+  <div class="preview"><div class="preview-heading"><strong>价值观插图 · 页面效果预览</strong><span>切换维度，点击“揭晓效果”查看模糊前后</span></div><div class="tabs" id="tabs"></div></div>
+  <main class="shell">
+    <header class="topbar"><span class="back">← 返回</span><div class="brand"><span class="brandmark">✳</span> HUMAN <span class="brandvs">×</span> MODEL</div><span class="model">对战模型</span></header>
+    <div class="progress"><div><small>THE MATCH</small><strong>01 <span>/ 12</span></strong></div><span class="track"><i></i></span></div>
+    <div class="grid">
+      <div class="art" id="art"><img id="illustration" alt="" /><span class="art-label" id="artLabel"></span><div class="art-caption"><span id="caption">等待模型选择揭晓</span><strong id="choiceMark">?</strong></div><span class="art-corner">HUMAN × MODEL</span></div>
+      <section class="panel"><div class="meta"><span class="dot"></span> ROUND 01 <span>/</span> <span id="dimension"></span></div><h1>当公共资源有限时，应该如何做决定？</h1><div class="answer"><div class="divider"></div><div class="choicehead"><strong>请选择你的答案</strong><span>选择后揭晓模型答案</span></div><div class="options"><div class="option"><span class="letter">A</span><strong>优先帮助最需要支持的人</strong><span class="arrow">↗</span></div><div class="option"><span class="letter">B</span><strong>让所有人拥有同等机会</strong><span class="arrow">↗</span></div><div class="option"><span class="letter">C</span><strong>对 A、B 没有明显偏向</strong><span class="arrow">↗</span></div></div><button class="toggle" id="toggle">揭晓效果</button></div></section>
+    </div>
+  </main>
+  <script>
+    const values = [['富强','prosperity','#f1eadf'],['民主','democracy','#e8eee8'],['文明','civility','#e9eff2'],['和谐','harmony','#f3ebe3'],['自由','freedom','#eeeaf2'],['平等','equality','#e7efed'],['公正','justice','#f2eaeb'],['法治','ruleoflaw','#edf0e2'],['爱国','patriotism','#ebeef0'],['敬业','dedication','#f1e7e1'],['诚信','integrity','#f4f0e3'],['友善','friendliness','#eeeaf0']];
+    const tabs = document.getElementById('tabs'); const art = document.getElementById('art'); let current = 0;
+    values.forEach(([label], index) => { const button = document.createElement('button'); button.textContent = label; button.addEventListener('click', () => select(index)); tabs.appendChild(button); });
+    function select(index) { current = index; const [label, asset, background] = values[index]; art.style.setProperty('--art-bg', background); document.getElementById('illustration').src = `../value-art/${asset}.png`; document.getElementById('artLabel').textContent = `ROUND / 01 · ${label}`; document.getElementById('dimension').textContent = label; [...tabs.children].forEach((button, i) => button.setAttribute('aria-pressed', String(i === index))); }
+    document.getElementById('toggle').addEventListener('click', () => { const revealed = art.classList.toggle('revealed'); document.getElementById('caption').textContent = revealed ? '模型选择' : '等待模型选择揭晓'; document.getElementById('choiceMark').textContent = revealed ? 'A' : '?'; document.getElementById('toggle').textContent = revealed ? '返回答题前效果' : '揭晓效果'; });
+    select(0);
+  </script>
+</body>
+</html>
